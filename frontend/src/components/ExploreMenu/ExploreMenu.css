@@ -1,0 +1,64 @@
+.Explore-Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.Explore-Menu h1{
+    color: #a00000;
+    font-weight: 800;
+}
+
+.Explore-Menu-Text{
+    max-width: 100%;
+    color: #080f17;
+}
+
+.Explore-Menu-List{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+
+.Explore-Menu-List::-webkit-scrollbar{
+    display: none;
+}
+
+.Explore-Menu-List-Item img{
+  width: 7.5vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.Explore-Menu-List-Item p{
+    margin-top: 10px;
+    color: #080f17;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Explore-Menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #a00000;
+    border: none;
+}
+
+.Explore-Menu-List-Item .active{
+   border: 4px solid #a00000;
+   padding: 2px;
+}
+
+@media (max-width:1050px) {
+    .Explore-Menu-Text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+  }

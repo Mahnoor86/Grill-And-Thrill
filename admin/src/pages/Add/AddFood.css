@@ -1,0 +1,43 @@
+.add{
+    width: 70%;
+    margin-left: 25px;
+    margin-top: 50px;
+    color: #a10000;
+    font-size: 18px;
+}
+
+.add form{
+    gap: 20px;
+}
+
+.add-img img{
+  width: 120px;
+}
+
+.add-pro-name, .add-desp{
+  width: max(40%, 290px);
+}
+
+
+.add-pro-name input, .add-desp textarea{
+    padding: 10px;
+  }
+
+ .add-cat-price{
+    display: flex;
+    gap: 30px;
+  }
+
+  .add-cat-price select, .add-cat-price input{
+    max-width: 120px;
+    padding: 10px;
+  }
+
+  .add-bt{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: #080F17;
+    color: #ffffe7;
+    cursor: pointer;
+  }

@@ -1,0 +1,70 @@
+.Header{
+    height: 34vw;
+    margin-top: 3px ;
+    background: url("../../assets/headerbg2.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+.Header-Content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    top: 10%; 
+    left: 4vw; 
+    animation: fadeIn 3s;
+}
+
+.Header-Content h2{
+    font-weight: 500;
+    color: #edbd08;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Header-Content h3{
+    font-weight: 500;
+    color: #edbd08;
+    font-size: 30px;
+}
+
+.Header-Content a{
+    border: none;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FFFF00;
+    color: #0e1118;
+}
+.Header-Content a:hover{
+    background-color: #FFFFE7;
+    color: #0e1118;
+}
+
+
+@media (max-width:1050px) {
+
+    .Header-Content{
+        max-width: 45%;
+    }
+  }
+
+  @media (max-width:750px) {
+
+    .Header-Content{
+        max-width: 65%;
+    }
+    .Header-Content p{
+        display: none;
+    }
+    .Header-Content button{
+        padding: 2vw 4vw;
+    }
+  }
+

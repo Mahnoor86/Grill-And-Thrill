@@ -1,0 +1,27 @@
+.MobileApp{
+    font-size: 25px;
+    font-weight: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+    margin-top: 5%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.social img{
+    width: max(30vw, 120px);
+    max-width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.social img:hover{
+    transform: scale(1.05);
+}

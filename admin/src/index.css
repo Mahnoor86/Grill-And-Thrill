@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #ffffe7;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a10000;
+}
+
+.app-cont{
+  display: flex;
+}
+
+.flex-col{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
